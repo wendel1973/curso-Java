@@ -7,10 +7,10 @@ public class Contador {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o primeiro parâmetro:");
-        int parametroum = 20;//scanner.nextInt();
+        int parametroum = scanner.nextInt();
 
         System.out.println("Digite o segundo parâmetro:");
-        int parametrodois = 10; //scanner.nextInt();
+        int parametrodois = scanner.nextInt();
 
         try {
             contar(parametroum, parametrodois);
